@@ -32,7 +32,7 @@ let jake = {
     .name("Jake")
     .add_hobby(guitar)
     .add_hobby(programming)
-    .email("jakesarjeant13@gmail.com".parse())
+    .email("jake@sarjeant.me".parse())
     .build().unwrap()
 };
 
