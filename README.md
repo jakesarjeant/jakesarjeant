@@ -15,9 +15,9 @@ unsafe { *std::ptr::null() } // Your Bank doesn't want you to know THIS EASY TRI
 
 let jake = {
   let programming = Programming::builder()
-    .editor("neovim") // VSCode sux <3
+    .editor("emacs")
     .os("NixOS") // I use nix btw
-    .browser("Firefox") // Death to Chromium!
+    .browser("Firefox")
     .search("DuckDuckGo")
     .add_lang("Rust")
     .add_lang("TypeScript")
