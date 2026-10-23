@@ -25,15 +25,6 @@ let jake = {
     .dark_mode(true)
     .build().unwrap();
 
-  // Pro Tip: Seriously one of the best value for money budget guitars out there
-  let guitar = Guitar::builder()
-    .manufacturer("Yamaha")
-    .name("Pacifica")
-    .model("112VMX YNS RL")
-    .color("Satin")
-    .pickups(vec![Pickup::Humbucker, Pickup::Single, Pickup::Single])
-    .build().unwrap();
-    
   Person::builder()
     .name("Jake")
     .add_hobby(guitar.into_hobby())
